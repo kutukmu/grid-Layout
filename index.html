@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Responsive Website!</title>
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <div class="top">
+      <header class="hero">
+        <h1>Terry's Taco Joint</h1>
+        <p>Pretty Good Tacos!</p>
+      </header>
+      <div class="cta cta1">
+        <p class="price">$1.99</p>
+        <p>Tacos</p>
+      </div>
+      <div class="cta cta2">
+        <p class="price">$3.99</p>
+        <p>Kombucha</p>
+      </div>
+
+    </div>
+    <nav class="menu">
+     <a class="toggle-button" href="#">
+         <span class="bar"></span>
+         <span class="bar"></span>
+         <span class="bar"></span>
+     </a>
+      <ul id="menu-list">
+        <li>
+          <a href="">Tacos</a>
+        </li>
+        <li>
+          <a href="">Beers</a>
+        </li>
+        <li>
+          <a href="">Wines</a>
+        </li>
+        <li>
+          <a href="">Desserts</a>
+        </li>
+        <li>
+          <a href="">Reservations</a>
+        </li>
+      </ul>
+    </nav>
+
+    <section class="features">
+      <div class="feature">
+        <span class="icon">🌮</span>
+        <h3>Tacos</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
+      </div>
+      <div class="feature">
+        <span class="icon">🍺</span>
+        <h3>Beer</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
+      </div>
+      <div class="feature">
+        <span class="icon">🍷</span>
+        <h3>Wine</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
+      </div>
+      <div class="feature">
+        <span class="icon">🎵</span>
+        <h3>Music</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
+      </div>
+    </section>
+
+    <section class="about">
+      <img src="images/queso-taco.png" alt="Yummy Taco" class="about__mockup">
+      <div class="about__details">
+        <h2>Featured Taco</h2>
+        <p>Slim Profile, easy to hold and loaded with cheese.</p>
+        <p>This is the one you have been waiting for</p>
+        <button>Learn More →</button>
+      </div>
+    </section>
+   
+        <h2 class="line">Instant Grams</h2>
+    
+    <section class="gallery">
+      
+      <img src="https://unsplash.it/300?v=1" alt="">
+      <img src="https://unsplash.it/300?v=2" alt="">
+      <img src="https://unsplash.it/300?v=3" alt="">
+      <img src="https://unsplash.it/300?v=4" alt="">
+      <img src="https://unsplash.it/300?v=5" alt="">
+      <img src="https://unsplash.it/300?v=6" alt="">
+      <img src="https://unsplash.it/300?v=7" alt="">
+      <img src="https://unsplash.it/300?v=8" alt="">
+      <img src="https://unsplash.it/300?v=9" alt="">
+      <img src="https://unsplash.it/300?v=10" alt="">
+    </section>
+  </div>
+
+  <script>
+      
+      const toggleButton = document.querySelector(".toggle-button");
+      
+      const menu = document.querySelector(".menu ul");
+      
+      toggleButton.addEventListener("click", ()=>{
+          menu.classList.toggle("active")
+      })
+      
+      
+      
+  </script>
+  
+</body>
+
+</html>
